@@ -1,7 +1,4 @@
 #!/bin/bash
-
-file_owner=$(stat -c %U hello)
-
-if [ "$file_owner" = "guillaume" ]; then
+if [ "$(stat -c %U hello)" = "guillaume" ]; then
     chown betty hello
 fi
