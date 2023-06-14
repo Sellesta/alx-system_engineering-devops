@@ -1,4 +1,3 @@
 #!/bin/bash
-echo "\"(Ôo)'"
-echo
+echo -e "\"(Ôo)'\n"
 
