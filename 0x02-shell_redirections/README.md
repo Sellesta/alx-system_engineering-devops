@@ -1,1 +1,1 @@
-2-hellofile: script to display the content of /etc/passwd
+Prints "Hello, World", followed by a new line to the standard output
